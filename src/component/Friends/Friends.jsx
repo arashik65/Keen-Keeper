@@ -2,7 +2,7 @@
 import Friend from "./Friend";
 
 const FetchFriends = async () => {
-  const res = await fetch("https://keen-keeper-pi-nine.vercel.app/data.json", {
+  const res = await fetch(" https://keen-keeper-nine-zeta.vercel.app//data.json", {
     cache: "no-store",
   });
   const data = await res.json();

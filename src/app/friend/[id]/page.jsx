@@ -3,7 +3,7 @@ import DetailsPageCol1 from "@/component/Friends/DetailsPage/Col-1/DetailsPageCo
 import DetailsPageCol2 from "@/component/Friends/DetailsPage/Col-2/DetailsPageCol2";
 
 const FetchFriends = async () => {
-  const res = await fetch("https://keen-keeper-pi-nine.vercel.app/data.json", {
+  const res = await fetch(" https://keen-keeper-nine-zeta.vercel.app//data.json", {
     cache: "no-store",
   });
   const data = await res.json();
